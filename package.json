@@ -1,0 +1,22 @@
+{
+  "name": "theme-lambda",
+  "displayName": "Lambda Dark Theme",
+  "description": "Dark syntax theme aimed at ES2017/JSX.",
+  "version": "0.0.1",
+  "publisher": "eldarshamukhamedov",
+  "engines": {
+    "vscode": "^1.9.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Lambda Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Lambda.tmTheme"
+      }
+    ]
+  }
+}
