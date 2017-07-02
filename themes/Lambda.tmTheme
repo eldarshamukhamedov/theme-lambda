@@ -30,7 +30,7 @@
           <key>bracketContentsForeground</key>
           <string>#000000</string>
           <key>guide</key>
-          <string>#202e38</string>
+          <string>#151515</string>
           <key>activeGuide</key>
           <string>#ffc600</string>
           <key>stackGuide</key>
