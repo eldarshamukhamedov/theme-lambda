@@ -5,17 +5,15 @@
   "version": "0.0.1",
   "publisher": "eldarshamukhamedov",
   "engines": {
-    "vscode": "^1.9.0"
+    "vscode": "^1.31.0"
   },
-  "categories": [
-    "Themes"
-  ],
+  "categories": ["Themes"],
   "contributes": {
     "themes": [
       {
         "label": "Lambda Dark",
         "uiTheme": "vs-dark",
-        "path": "./themes/Lambda.tmTheme"
+        "path": "./themes/Lambda.json"
       }
     ]
   }
