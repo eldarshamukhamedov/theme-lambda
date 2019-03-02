@@ -3,7 +3,6 @@
   "tokenColors": [
     {
       "settings": {
-        "background": "#030405",
         "foreground": "#FFFFFF",
         "bracketsForeground": "#ffc600",
         "bracketContentsForeground": "#000000",
@@ -36,16 +35,15 @@
       }
     },
     {
-      "name": "Keyword",
-      "scope": "keyword",
-      "settings": {
-        "fontStyle": "",
-        "foreground": "#465078"
-      }
-    },
-    {
-      "name": "Storage",
-      "scope": ["storage", "storage.type.var", "storage.type.function"],
+      "name": "Keywords",
+      "scope": [
+        "keyword",
+        "source.nginx constant.language.directive",
+        "source.nginx constant.language.module",
+        "storage",
+        "storage.type.var",
+        "storage.type.function"
+      ],
       "settings": {
         "fontStyle": "",
         "foreground": "#465078"
@@ -81,8 +79,7 @@
       "scope": "variable",
       "settings": {
         "fontStyle": "",
-        "foreground": "#FFFFFF",
-        "background": "#030405"
+        "foreground": "#FFFFFF"
       }
     },
     {
@@ -112,7 +109,6 @@
       "name": "Embedded Source",
       "scope": ["text source", "string.unquoted.heredoc"],
       "settings": {
-        "background": "#030405",
         "fontStyle": "",
         "foreground": "#FFFFFF"
       }
@@ -573,7 +569,12 @@
     },
     {
       "name": "Braces",
-      "scope": ["meta.brace", "token.delimiter", "meta.tag"],
+      "scope": [
+        "meta.brace",
+        "token.delimiter",
+        "meta.tag",
+        "source.nginx constant.character"
+      ],
       "settings": {
         "foreground": "#878787"
       }
@@ -609,7 +610,7 @@
     }
   ],
   "colors": {
-    "editor.background": "#030405",
+    "editor.background": "#000102",
     "editorCursor.foreground": "#D1DAE3",
     "editor.foreground": "#FFFFFF",
     "editorWhitespace.foreground": "#141414",
@@ -622,11 +623,11 @@
     "editorGroupHeader.tabsBackground": "#0a0b0c",
     "tab.inactiveBackground": "#0a0b0c",
     "tab.inactiveForeground": "#666666",
-    "titleBar.activeBackground": "#131415",
+    "titleBar.activeBackground": "#1a1b1c",
+    "titleBar.inactiveBackground": "#131415",
     "scrollbarSlider.background": "#1a1b1c",
     "scrollbarSlider.hoverBackground": "#232425",
     "scrollbarSlider.activeBackground": "#343536",
-    "statusBar.background": "#131415",
-    "statusBar.foreground": "#666666"
+    "statusBar.background": "#004c80"
   }
 }
