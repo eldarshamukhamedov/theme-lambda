@@ -624,6 +624,7 @@
     "editorGroupHeader.tabsBackground": "#0a0b0c",
     "tab.inactiveBackground": "#0a0b0c",
     "tab.inactiveForeground": "#666666",
+    "tab.activeBorderTop": "#666666",
     "titleBar.activeBackground": "#1a1b1c",
     "titleBar.inactiveBackground": "#131415",
     "scrollbarSlider.background": "#1a1b1c",
