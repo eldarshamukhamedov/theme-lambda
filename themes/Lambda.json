@@ -522,10 +522,7 @@
     },
     {
       "name": "Quotes",
-      "scope": [
-        "punctuation.definition.string.begin.js",
-        "punctuation.definition.string.end.js"
-      ],
+      "scope": ["punctuation.definition.string.begin.js", "punctuation.definition.string.end.js"],
       "settings": {
         "foreground": "#9BC200"
       }
@@ -569,12 +566,7 @@
     },
     {
       "name": "Braces",
-      "scope": [
-        "meta.brace",
-        "token.delimiter",
-        "meta.tag",
-        "source.nginx constant.character"
-      ],
+      "scope": ["meta.brace", "token.delimiter", "meta.tag", "source.nginx constant.character"],
       "settings": {
         "foreground": "#878787"
       }
@@ -630,6 +622,7 @@
     "scrollbarSlider.background": "#1a1b1c",
     "scrollbarSlider.hoverBackground": "#232425",
     "scrollbarSlider.activeBackground": "#343536",
-    "statusBar.background": "#004c80"
+    "statusBar.background": "#004c80",
+    "terminal.background": "#000102"
   }
 }
